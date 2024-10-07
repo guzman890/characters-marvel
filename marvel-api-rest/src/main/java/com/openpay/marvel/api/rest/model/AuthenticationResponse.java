@@ -1,14 +1,14 @@
 package com.openpay.marvel.api.rest.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class AuthenticationResponse {
 
-    private final String jwt;
+    private String jwt;
 
-    public AuthenticationResponse(String jwt) {
-        this.jwt = jwt;
-    }
-
-    public String getJwt() {
-        return jwt;
-    }
 }
