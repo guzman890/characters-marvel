@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: marvel-api-client
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 5000
+            readTimeout: 5000
